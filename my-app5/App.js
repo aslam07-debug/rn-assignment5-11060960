@@ -42,3 +42,18 @@ export default function App() {
   );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    
+    
+  },
+  buttonRow: {
+    flexDirection: 'row',
+    justifyContent:'space-between',
+    width: 340, 
+    alignItems: 'center',
+    marginTop: 20
+  }
+});

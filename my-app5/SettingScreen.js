@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View ,Image, Button, FlatList} from 'react-native';
 import SettingList from './SettingList';
+import ThemeSwitch from './components/ThemeSwitch';
 export default function SettingScreen(){
 
   return(
@@ -12,7 +13,7 @@ export default function SettingScreen(){
 <SettingList title="Change password" />
 
 <SettingList title="Privacy Policy" />
-
+<ThemeSwitch />
 </View>
   );
 }
